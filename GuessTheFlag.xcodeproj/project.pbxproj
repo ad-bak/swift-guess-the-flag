@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		02D1BDE62DD1419B006EC7FA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 02D1BDE52DD1419B006EC7FA /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		02D1BDD52DD11FCD006EC7FA /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D1BDE52DD1419B006EC7FA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		02D1BDCC2DD11FCD006EC7FA = {
 			isa = PBXGroup;
 			children = (
+				02D1BDE52DD1419B006EC7FA /* .gitignore */,
 				02D1BDD72DD11FCD006EC7FA /* GuessTheFlag */,
 				02D1BDD62DD11FCD006EC7FA /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D1BDE62DD1419B006EC7FA /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
